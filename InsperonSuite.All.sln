@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{5ED2760B-26EE-4762-ABCB-311E8232B9BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Calculation.Core", "Calculation.Core", "{D38DE2FF-8D7A-41E2-A2DC-1F4277A632AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insperon.Core", "src\Insperon.Core\Insperon.Core.csproj", "{9301A1A7-DE30-46C8-908B-74E1DCA726CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{8F1651BA-EB6E-406B-BBF5-AFB4BC6FA6C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insperon.Data.DomainModel", "src\Insperon.Data.DomainModel\Insperon.Data.DomainModel.csproj", "{09AB480A-BBCF-42B4-B314-C00289EA9E1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insperon.Data.Persistence", "src\Insperon.Data.Persistence\Insperon.Data.Persistence.csproj", "{3195C3BE-1674-4E33-AE45-FA795DC3CBD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insperon.Calculation.Core.DomainModel", "src\Insperon.Calculation.Core.DomainModel\Insperon.Calculation.Core.DomainModel.csproj", "{575FA673-0420-4B46-B142-F799AE40A41F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insperon.Calculation.Core.Persistence", "src\Insperon.Calculation.Core.Persistence\Insperon.Calculation.Core.Persistence.csproj", "{311CE525-9993-4850-B451-EF8398B3BEC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insperon.Calculation.Core.Migrations", "src\Insperon.Calculation.Core.Migrations\Insperon.Calculation.Core.Migrations.csproj", "{1AAD5F23-E0C5-4F6F-8D19-C8E8C470071E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Calculation.Web.UI", "Calculation.Web.UI", "{9362C70C-3690-4A04-86FE-24DA5AFFAF83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Insperon.Calculation.Web.UI", "src\Insperon.Calculation.Web.UI\Insperon.Calculation.Web.UI.csproj", "{E67DB2F5-2A87-48CE-A4ED-737FDB19B228}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9301A1A7-DE30-46C8-908B-74E1DCA726CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9301A1A7-DE30-46C8-908B-74E1DCA726CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9301A1A7-DE30-46C8-908B-74E1DCA726CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9301A1A7-DE30-46C8-908B-74E1DCA726CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09AB480A-BBCF-42B4-B314-C00289EA9E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09AB480A-BBCF-42B4-B314-C00289EA9E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09AB480A-BBCF-42B4-B314-C00289EA9E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09AB480A-BBCF-42B4-B314-C00289EA9E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3195C3BE-1674-4E33-AE45-FA795DC3CBD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3195C3BE-1674-4E33-AE45-FA795DC3CBD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3195C3BE-1674-4E33-AE45-FA795DC3CBD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3195C3BE-1674-4E33-AE45-FA795DC3CBD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{575FA673-0420-4B46-B142-F799AE40A41F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{575FA673-0420-4B46-B142-F799AE40A41F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{575FA673-0420-4B46-B142-F799AE40A41F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{575FA673-0420-4B46-B142-F799AE40A41F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{311CE525-9993-4850-B451-EF8398B3BEC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{311CE525-9993-4850-B451-EF8398B3BEC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{311CE525-9993-4850-B451-EF8398B3BEC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{311CE525-9993-4850-B451-EF8398B3BEC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AAD5F23-E0C5-4F6F-8D19-C8E8C470071E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AAD5F23-E0C5-4F6F-8D19-C8E8C470071E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AAD5F23-E0C5-4F6F-8D19-C8E8C470071E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AAD5F23-E0C5-4F6F-8D19-C8E8C470071E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E67DB2F5-2A87-48CE-A4ED-737FDB19B228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67DB2F5-2A87-48CE-A4ED-737FDB19B228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67DB2F5-2A87-48CE-A4ED-737FDB19B228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67DB2F5-2A87-48CE-A4ED-737FDB19B228}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9301A1A7-DE30-46C8-908B-74E1DCA726CC} = {5ED2760B-26EE-4762-ABCB-311E8232B9BD}
+		{09AB480A-BBCF-42B4-B314-C00289EA9E1A} = {8F1651BA-EB6E-406B-BBF5-AFB4BC6FA6C6}
+		{3195C3BE-1674-4E33-AE45-FA795DC3CBD6} = {8F1651BA-EB6E-406B-BBF5-AFB4BC6FA6C6}
+		{575FA673-0420-4B46-B142-F799AE40A41F} = {D38DE2FF-8D7A-41E2-A2DC-1F4277A632AF}
+		{311CE525-9993-4850-B451-EF8398B3BEC1} = {D38DE2FF-8D7A-41E2-A2DC-1F4277A632AF}
+		{1AAD5F23-E0C5-4F6F-8D19-C8E8C470071E} = {D38DE2FF-8D7A-41E2-A2DC-1F4277A632AF}
+		{E67DB2F5-2A87-48CE-A4ED-737FDB19B228} = {9362C70C-3690-4A04-86FE-24DA5AFFAF83}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {030B34C0-DEE6-4955-BE2F-FCF7FBE68B2F}
+	EndGlobalSection
+EndGlobal
